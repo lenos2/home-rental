@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Property Rental SaaS",
-  description: "Multi-tenant property rental management platform",
+  title: "Manage Midziyo — Powering Smarter Property Operations",
+  description: "Multi-tenant property rental management platform for residential, commercial, and vacation rentals",
 };
 
 export default function RootLayout({

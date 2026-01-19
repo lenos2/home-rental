@@ -1,12 +1,21 @@
+import { Navbar } from '@/components/marketing/navbar';
+import { Hero } from '@/components/marketing/hero';
+import { Features } from '@/components/marketing/features';
+import { Pricing } from '@/components/marketing/pricing';
+import { CallToAction } from '@/components/marketing/cta';
+import { Footer } from '@/components/marketing/footer';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Property Rental SaaS</h1>
-        <p className="text-xl text-muted-foreground">
-          Multi-tenant property rental management platform
-        </p>
-      </div>
-    </main>
+    <div className="flex min-h-screen flex-col">
+      <Navbar />
+      <main className="flex-1">
+        <Hero />
+        <Features />
+        <Pricing />
+        <CallToAction />
+      </main>
+      <Footer />
+    </div>
   );
 }
