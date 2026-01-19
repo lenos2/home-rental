@@ -32,14 +32,14 @@ const features = [
 
 export function Features() {
   return (
-    <div id="features" className="bg-white py-24 sm:py-32">
+    <div id="features" className="bg-white py-24 sm:py-32 scroll-mt-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center mb-16">
           <h2 className="text-base font-semibold leading-7 text-amber-600 uppercase tracking-wide">Everything you need</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
             Complete Toolkit for Property Managers
           </p>
-          <p className="mt-6 text-lg leading-8 text-slate-600">
+          <p className="mt-6 text-lg leading-8 text-stone-600">
             Manage Midziyo simplifies the complexities of property management, combining enterprise-grade power with a warm, user-friendly experience.
           </p>
         </div>
@@ -51,13 +51,13 @@ export function Features() {
                 <div className="inline-flex items-center justify-center p-3 bg-amber-100 rounded-xl text-amber-600">
                   <feature.icon className="h-8 w-8" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900">{feature.name}</h3>
-                <p className="text-lg text-slate-600 leading-relaxed">
+                <h3 className="text-2xl font-bold text-stone-900">{feature.name}</h3>
+                <p className="text-lg text-stone-600 leading-relaxed">
                   {feature.description}
                 </p>
                 <ul className="space-y-3 mt-4">
                   {[1, 2, 3].map((item) => (
-                    <li key={item} className="flex items-center gap-3 text-slate-700">
+                    <li key={item} className="flex items-center gap-3 text-stone-700">
                       <Check className="h-5 w-5 text-green-500" />
                       <span>Streamlined workflow optimization</span>
                     </li>
@@ -65,7 +65,7 @@ export function Features() {
                 </ul>
               </div>
               <div className="flex-1 w-full">
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-100">
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-stone-100">
                   <div className="aspect-[4/3] relative">
                     <Image 
                       src={feature.image} 

@@ -61,28 +61,28 @@ const tiers = [
 
 export function Pricing() {
   return (
-    <div id="pricing" className="bg-stone-100 py-24 sm:py-32">
+    <div id="pricing" className="bg-stone-100 py-24 sm:py-32 scroll-mt-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Simple, transparent pricing</h2>
-          <p className="mt-6 text-lg leading-8 text-slate-600">
+          <h2 className="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">Simple, transparent pricing</h2>
+          <p className="mt-6 text-lg leading-8 text-stone-600">
             Choose the plan that fits your portfolio size. No hidden fees. Upgrade or cancel anytime.
           </p>
         </div>
-        <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-slate-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
+        <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-stone-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
           <div className="grid grid-cols-1 gap-y-6 lg:grid-cols-3 lg:gap-x-8 w-full">
             {tiers.map((tier) => (
               <div 
                 key={tier.id} 
                 className={`
                   flex flex-col justify-between rounded-3xl bg-white p-8 shadow-sm transition-all duration-300 hover:shadow-xl
-                  ${tier.featured ? 'ring-2 ring-amber-500 scale-105 z-10 shadow-lg' : 'ring-1 ring-slate-200 hover:scale-[1.02]'} 
+                  ${tier.featured ? 'ring-2 ring-amber-500 scale-105 z-10 shadow-lg' : 'ring-1 ring-stone-200 hover:scale-[1.02]'} 
                   xl:p-10
                 `}
               >
                 <div>
                   <div className="flex items-center justify-between gap-x-4">
-                    <h3 className={`text-lg font-semibold leading-8 ${tier.featured ? 'text-amber-600' : 'text-slate-900'}`}>
+                    <h3 className={`text-lg font-semibold leading-8 ${tier.featured ? 'text-amber-600' : 'text-stone-900'}`}>
                       {tier.name}
                     </h3>
                     {tier.featured && (
@@ -91,15 +91,15 @@ export function Pricing() {
                       </span>
                     )}
                   </div>
-                  <p className="mt-4 text-sm leading-6 text-slate-600">{tier.description}</p>
+                  <p className="mt-4 text-sm leading-6 text-stone-600">{tier.description}</p>
                   <p className="mt-6 flex items-baseline gap-x-1">
-                    <span className="text-4xl font-bold tracking-tight text-slate-900">{tier.price}</span>
-                    <span className="text-sm font-semibold leading-6 text-slate-600">/month</span>
+                    <span className="text-4xl font-bold tracking-tight text-stone-900">{tier.price}</span>
+                    <span className="text-sm font-semibold leading-6 text-stone-600">/month</span>
                   </p>
-                  <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-slate-600">
+                  <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-stone-600">
                     {tier.features.map((feature) => (
                       <li key={feature} className="flex gap-x-3">
-                        <Check className={`h-6 w-5 flex-none ${tier.featured ? 'text-amber-500' : 'text-slate-400'}`} aria-hidden="true" />
+                        <Check className={`h-6 w-5 flex-none ${tier.featured ? 'text-amber-500' : 'text-stone-400'}`} aria-hidden="true" />
                         {feature}
                       </li>
                     ))}

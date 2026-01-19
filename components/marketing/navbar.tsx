@@ -15,22 +15,22 @@ export function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2">
               <Building2 className="h-8 w-8 text-amber-600" />
-              <span className="text-xl font-bold text-slate-900">Manage Midziyo</span>
+              <span className="text-xl font-bold text-stone-900">Manage Midziyo</span>
             </Link>
           </div>
 
           <div className="hidden md:block">
             <div className="flex items-center gap-8">
-              <Link href="#features" className="text-sm font-medium text-slate-600 hover:text-amber-600 transition-colors">
+              <Link href="#features" className="text-sm font-medium text-stone-600 hover:text-amber-600 transition-colors">
                 Features
               </Link>
-              <Link href="#pricing" className="text-sm font-medium text-slate-600 hover:text-amber-600 transition-colors">
+              <Link href="#pricing" className="text-sm font-medium text-stone-600 hover:text-amber-600 transition-colors">
                 Pricing
               </Link>
-              <Link href="#about" className="text-sm font-medium text-slate-600 hover:text-amber-600 transition-colors">
+              <Link href="#about" className="text-sm font-medium text-stone-600 hover:text-amber-600 transition-colors">
                 About
               </Link>
-              <Link href="/auth/login" className="text-sm font-medium text-slate-600 hover:text-amber-600 transition-colors">
+              <Link href="/auth/login" className="text-sm font-medium text-stone-600 hover:text-amber-600 transition-colors">
                 Log in
               </Link>
               <Link href="/auth/register">
@@ -42,7 +42,7 @@ export function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-600 hover:text-gray-900 focus:outline-none"
+              className="text-stone-600 hover:text-stone-900 focus:outline-none"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -52,32 +52,32 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="md:hidden border-t">
+        <div className="md:hidden absolute top-16 left-0 right-0 bg-white border-b shadow-lg z-40">
           <div className="space-y-1 px-4 pb-3 pt-2">
             <Link
               href="#features"
-              className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-primary"
+              className="block rounded-md px-3 py-2 text-base font-medium text-stone-600 hover:bg-amber-50 hover:text-amber-600"
               onClick={() => setIsMenuOpen(false)}
             >
               Features
             </Link>
             <Link
               href="#pricing"
-              className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-primary"
+              className="block rounded-md px-3 py-2 text-base font-medium text-stone-600 hover:bg-amber-50 hover:text-amber-600"
               onClick={() => setIsMenuOpen(false)}
             >
               Pricing
             </Link>
             <Link
               href="/auth/login"
-              className="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-primary"
+              className="block rounded-md px-3 py-2 text-base font-medium text-stone-600 hover:bg-amber-50 hover:text-amber-600"
               onClick={() => setIsMenuOpen(false)}
             >
               Log in
             </Link>
-            <div className="mt-4">
+            <div className="mt-4 px-3 pb-2">
               <Link href="/auth/register" onClick={() => setIsMenuOpen(false)}>
-                <Button className="w-full">Get Started</Button>
+                <Button className="w-full bg-amber-500 hover:bg-amber-600 text-white border-0">Get Started</Button>
               </Link>
             </div>
           </div>
