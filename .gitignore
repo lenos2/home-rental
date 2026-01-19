@@ -38,3 +38,6 @@ next-env.d.ts
 
 # prisma
 prisma/migrations
+
+# Build tracking (keep this file in git)
+# build-number.json

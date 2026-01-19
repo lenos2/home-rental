@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Building2, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import buildData from '../../build-number.json';
 
 export function Footer() {
   return (
@@ -47,9 +48,11 @@ export function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Manage Midziyo. All rights reserved.
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-2 text-sm text-gray-500">
+            <p>&copy; {new Date().getFullYear()} Manage Midziyo. All rights reserved.</p>
+            <span className="hidden md:inline">•</span>
+            <p className="text-xs">Build {buildData.build}</p>
+          </div>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-gray-500">
               <span className="sr-only">Facebook</span>
