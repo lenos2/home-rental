@@ -1,10 +1,10 @@
-# Getting Started with Manage Midziyo
+# Getting Started with Midziyo Manager
 
 **Powering Smarter Property Operations**
 
 ## 🎉 What's Been Built
 
-You now have a **production-ready foundation** for Manage Midziyo, a comprehensive Property Rental SaaS platform with:
+You now have a **production-ready foundation** for Midziyo Manager, a comprehensive Property Rental SaaS platform with:
 
 ### ✅ Complete Features
 1. **Multi-Tenant Architecture** - Full data isolation per company
@@ -73,7 +73,7 @@ EMAIL_HOST="smtp.gmail.com"
 EMAIL_PORT="587"
 EMAIL_USER="your-email@gmail.com"
 EMAIL_PASS="your-app-password"
-EMAIL_FROM="Manage Midziyo <noreply@managemidziyo.com>"
+EMAIL_FROM="Midziyo Manager <noreply@midziyomanager.com>"
 ```
 
 ### 3. Setup Database

@@ -21,7 +21,7 @@ export function Hero() {
         <div className="flex flex-wrap items-center">
           <div className="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
             <h1 className="text-white font-bold text-5xl sm:text-6xl mb-6 leading-tight">
-              Manage Midziyo
+              Midziyo Manager
               <span className="block text-amber-400 mt-2">Powering Smarter Property Operations</span>
             </h1>
             <p className="mt-4 text-lg sm:text-xl text-stone-200 mb-8 font-light max-w-3xl mx-auto">

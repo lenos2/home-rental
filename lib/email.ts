@@ -87,7 +87,7 @@ export function getEmailTemplate(
               </tr>
               <tr>
                 <td style="background-color: #f8f8f8; padding: 20px 30px; text-align: center; color: #666666; font-size: 14px;">
-                  <p style="margin: 0;">This is an automated message from Manage Midziyo.</p>
+                  <p style="margin: 0;">This is an automated message from Midziyo Manager.</p>
                   <p style="margin: 10px 0 0 0;">Powering Smarter Property Operations</p>
                 </td>
               </tr>
@@ -163,10 +163,10 @@ export async function sendWelcomeEmail(
   const dashboardUrl = `${process.env.NEXT_PUBLIC_APP_URL}/dashboard`;
   
   const html = getEmailTemplate(
-    'Welcome to Manage Midziyo',
+    `Welcome to ${companyName} on Midziyo Manager`,
     `
       <p>Hi ${firstName},</p>
-      <p>Welcome to Manage Midziyo! Your account for ${companyName} has been successfully created.</p>
+      <p>Welcome to Midziyo Manager! Your account for ${companyName} has been successfully created.</p>
       <p>You can now start managing your properties, tenants, and leases all in one place.</p>
       <p>Get started by logging in to your dashboard:</p>
     `,
@@ -177,7 +177,7 @@ export async function sendWelcomeEmail(
 
   return sendEmail({
     to: email,
-    subject: 'Welcome to Manage Midziyo',
+    subject: 'Welcome to Midziyo Manager',
     html,
   });
 }

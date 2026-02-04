@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Manage Midziyo — Powering Smarter Property Operations",
+  title: "Midziyo Manager — Powering Smarter Property Operations",
   description: "Multi-tenant property rental management platform for residential, commercial, and vacation rentals",
 };
 

@@ -20,7 +20,7 @@ export default async function DashboardLayout({
       <div className="flex-1 flex flex-col">
         <header className="border-b bg-white">
           <div className="flex h-16 items-center px-6 justify-between">
-            <h2 className="text-lg font-semibold">Manage Midziyo</h2>
+            <span className="text-xl font-bold text-slate-900">Midziyo Manager</span>
             <UserNav user={user} />
           </div>
         </header>

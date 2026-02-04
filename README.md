@@ -1,4 +1,4 @@
-# Manage Midziyo — Powering Smarter Property Operations
+# Midziyo Manager — Powering Smarter Property Operations
 
 A comprehensive multi-tenant property rental management platform built with Next.js 14, TypeScript, Prisma, and PostgreSQL.
 

@@ -54,7 +54,9 @@ export default function LoginPage() {
             <Building2 className="h-6 w-6 text-primary-foreground" />
           </div>
         </div>
-        <CardTitle className="text-2xl text-center">Welcome back to Manage Midziyo</CardTitle>
+        <CardTitle className="text-2xl text-center">
+          <span className="text-2xl font-bold text-slate-900">Midziyo Manager</span>
+        </CardTitle>
         <CardDescription className="text-center">
           Powering Smarter Property Operations
         </CardDescription>

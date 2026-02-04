@@ -10,7 +10,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <Building2 className="h-6 w-6 text-amber-600" />
-              <span className="text-lg font-bold text-stone-900">Manage Midziyo</span>
+              <span className="text-lg font-bold text-stone-900">Midziyo Manager</span>
             </Link>
             <p className="text-sm text-stone-600 max-w-xs">
               Powering Smarter Property Operations. The complete solution for modern property management.

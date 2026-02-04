@@ -15,7 +15,7 @@ export function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2">
               <Building2 className="h-8 w-8 text-amber-600" />
-              <span className="text-xl font-bold text-stone-900">Manage Midziyo</span>
+              <span className="text-xl font-bold text-stone-900">Midziyo Manager</span>
             </Link>
           </div>
 

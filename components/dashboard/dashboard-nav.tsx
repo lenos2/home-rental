@@ -40,7 +40,7 @@ export function DashboardNav({ user }: DashboardNavProps) {
     <div className="w-64 border-r bg-white">
       <div className="flex h-16 items-center border-b px-6">
         <Building2 className="h-6 w-6 text-primary mr-2" />
-        <span className="font-semibold text-lg">Manage Midziyo</span>
+        <span className="text-xl font-bold text-slate-900">Midziyo Manager</span>
       </div>
       <nav className="flex flex-col gap-1 p-4">
         {navigation.map((item) => {
