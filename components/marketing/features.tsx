@@ -14,19 +14,19 @@ const features = [
     name: 'Comprehensive Property Dashboard',
     description: 'Get a bird\'s eye view of your entire portfolio. Track occupancy rates, revenue trends, and critical alerts in real-time with our intuitive dashboard designed for clarity and control.',
     icon: Building,
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
   },
   {
     name: 'Seamless Tenant Portal',
     description: 'Empower your tenants with a modern self-service portal. They can pay rent online, submit maintenance requests, and view lease documents, reducing your administrative workload.',
     icon: Users,
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
   },
   {
     name: 'Smart Maintenance Tracking',
     description: 'Never let a repair slip through the cracks. Automate work orders, assign vendors, and keep tenants updated with status notifications, all from a single centralized system.',
     icon: Wrench,
-    image: 'https://images.unsplash.com/photo-1581578731117-104f8a7469d6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1580041065738-e002314c6c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
   }
 ];
 

@@ -6,8 +6,8 @@ export function CallToAction() {
   return (
     <div className="relative isolate overflow-hidden bg-stone-900 py-24 sm:py-32">
       <Image
-        src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
-        alt="Office background"
+        src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+        alt="Beautiful home background"
         fill
         className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20"
       />

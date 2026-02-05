@@ -7,7 +7,7 @@ const tiers = [
     name: 'Starter',
     id: 'tier-starter',
     href: '/auth/register?plan=starter',
-    price: '$49',
+    price: '$15',
     description: 'Perfect for small property management companies or individual landlords.',
     features: [
       'Up to 10 Properties',
@@ -24,7 +24,7 @@ const tiers = [
     name: 'Growth',
     id: 'tier-growth',
     href: '/auth/register?plan=growth',
-    price: '$149',
+    price: '$50',
     description: 'Ideal for growing portfolios needing advanced branding and reporting.',
     features: [
       'Up to 50 Properties',
@@ -43,7 +43,7 @@ const tiers = [
     name: 'Enterprise',
     id: 'tier-enterprise',
     href: '/auth/register?plan=enterprise',
-    price: '$399',
+    price: '$100',
     description: 'Dedicated support and unlimited scale for large operations.',
     features: [
       'Unlimited Properties',
